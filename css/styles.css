@@ -46,6 +46,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: white;
+  fill: var(--cloud);
 }
 .container {
   width: 1158px;
@@ -314,7 +315,9 @@ body {
   max-width: 232px;
   margin: 0 auto;
   margin-top: 8px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 24px;
 }
 .team__item-socialiconwrap {
   width: 40px;
