@@ -167,7 +167,7 @@ body {
   /* background-image: url(../images/hero/hero-bg.jpg); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   margin: 0 auto;
   max-width: 1440px;
 }
