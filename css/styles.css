@@ -91,14 +91,12 @@ body {
 .nav__logo-highlight {
   color: #2e2f42;
 }
-.nav__item:nth-child(1) {
+
+.nav__link--active {
   position: relative;
   color: #404bbf;
 }
-.nav__link--active {
-  color: #404bbf;
-}
-.nav__item:nth-child(1)::after {
+.nav__link--active::after {
   content: '';
   position: absolute;
   bottom: -1px;
